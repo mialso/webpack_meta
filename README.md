@@ -30,6 +30,23 @@
 * open `http://localhost:5080/?debugLog=1` with debug enabled
 > see console output
 
+##### folder structure
+```
+src
+├── action
+│   └── start.js
+├── debug
+│   ├── constants.js
+│   ├── debug.js
+│   ├── greeting.debug.js
+│   └── initDebug.js
+├── main
+│   ├── greeting.js
+│   └── main.js
+└── ProxyWebpackPlugin.js
+```
+
+
 #### possible TODOs:
 * manage webpack module-id(path) constants
 * minified script
